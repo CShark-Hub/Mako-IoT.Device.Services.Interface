@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MakoIoT.Device.Services.Interface</id>
+    <version>$version$</version>
+    <title>MakoIoT.Device.Services.Interface</title>
+    <authors>CSHARK</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Device.Services.Interface</projectUrl>
+    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Device.Services.Interface" />
+    <copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
+    <description>Interfaces for MAKO-IoT services (.NET nanoFramework C# projects).</description>
+    <tags>nanoFramework C# csharp netmf netnf mako-iot interface</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.12.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\MakoIoT.Device.Services.Interface\bin\Release\MakoIoT.Device.Services.Interface.dll" target="lib\MakoIoT.Device.Services.Interface.dll" />
+    <file src="src\MakoIoT.Device.Services.Interface\bin\Release\MakoIoT.Device.Services.Interface.pdb" target="lib\MakoIoT.Device.Services.Interface.pdb" />
+    <file src="src\MakoIoT.Device.Services.Interface\bin\Release\MakoIoT.Device.Services.Interface.pdbx" target="lib\MakoIoT.Device.Services.Interface.pdbx" />
+    <file src="src\MakoIoT.Device.Services.Interface\bin\Release\MakoIoT.Device.Services.Interface.pe" target="lib\MakoIoT.Device.Services.Interface.pe" />
+    <file src="README.md" target="docs\" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
