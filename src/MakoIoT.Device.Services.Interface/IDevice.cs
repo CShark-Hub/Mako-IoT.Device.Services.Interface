@@ -4,10 +4,12 @@ namespace MakoIoT.Device.Services.Interface
 {
     public interface IDevice
     {
+        IServiceProvider ServiceProvider { get; }
+
         void Start();
         void Stop();
 
-        event EventHandler Starting;
-        event EventHandler Stopped;
+        event DeviceStartingDelegate Starting;
+        event DeviceStoppedDelegate Stopped;
     }
 }
