@@ -1,5 +1,5 @@
 # Mako-IoT.Device.Services.Interface
-Core liblary with all interfaces used across Mako-IoT.
+Core library with shared interfaces used across Mako-IoT.
 
 ## How to manually sync fork
 - Clone repository and navigate into folder
