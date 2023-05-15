@@ -3,6 +3,7 @@ using nanoFramework.DependencyInjection;
 
 namespace MakoIoT.Device.Services.Interface
 {
+    public delegate void ConfigureDIDelegate(IServiceCollection services);
     public delegate void ConfigureDefaultsDelegate(IConfigurationService configurationService);
     public delegate void DeviceStartingDelegate(IDevice device);
     public delegate void DeviceStoppedDelegate(IDevice device);
@@ -12,7 +13,7 @@ namespace MakoIoT.Device.Services.Interface
         public IServiceCollection Services { get; }
 
         ConfigureDefaultsDelegate ConfigureDefaultsAction { get; set; }
-        IDeviceBuilder ConfigureDI(Action configureDiAction);
+        IDeviceBuilder ConfigureDI(ConfigureDIDelegate configureDiAction);
         IDevice Build();
         event DeviceStartingDelegate DeviceStarting;
         event DeviceStoppedDelegate DeviceStopped;
