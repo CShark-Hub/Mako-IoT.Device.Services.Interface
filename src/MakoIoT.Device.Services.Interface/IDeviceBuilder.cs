@@ -1,5 +1,5 @@
 ﻿using System;
-using nanoFramework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MakoIoT.Device.Services.Interface
 {
