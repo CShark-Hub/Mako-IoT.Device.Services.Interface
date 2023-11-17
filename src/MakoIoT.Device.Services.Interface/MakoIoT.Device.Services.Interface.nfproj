@@ -35,7 +35,7 @@
     <Compile Include="INetworkProvider.cs" />
     <Compile Include="IScheduler.cs" />
     <Compile Include="IStorageService.cs" />
-    <Compile Include="LogLevel.cs" />
+    <Compile Include="LogEventLevel.cs" />
     <Compile Include="Messages\Envelope.cs" />
     <Compile Include="Messages\IMessage.cs" />
     <Compile Include="ObjectEventArgs.cs" />
