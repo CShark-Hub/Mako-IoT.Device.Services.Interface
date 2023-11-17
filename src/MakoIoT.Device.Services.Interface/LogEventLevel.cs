@@ -1,6 +1,6 @@
 ﻿namespace MakoIoT.Device.Services.Interface
 {
-    public enum LogLevel : byte
+    public enum LogEventLevel : byte
     {
         Trace = 0,
         Information = 1,
