@@ -5,6 +5,7 @@ namespace MakoIoT.Device.Services.Interface
     public interface IConfigurationService
     {
         object GetConfigSection(string sectionName, Type objectType);
+        bool TryGetConfigSection(string sectionName, Type objectType, out object section);
         void UpdateConfigSection(string sectionName, object section);
         bool UpdateConfigSectionString(string sectionName, string sectionString);
         bool UpdateConfigSectionString(string sectionName, string sectionString, Type objectType);
