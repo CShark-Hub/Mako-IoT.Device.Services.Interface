@@ -24,6 +24,7 @@
     <Compile Include="ICommunicationService.cs" />
     <Compile Include="IConfigurationService.cs" />
     <Compile Include="IConsumer.cs" />
+    <Compile Include="IDeviceInitializationBehavior.cs" />
     <Compile Include="IDeviceStartBehavior.cs" />
     <Compile Include="ILog.cs" />
     <Compile Include="ILogSink.cs" />
