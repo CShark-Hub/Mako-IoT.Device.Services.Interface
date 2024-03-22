@@ -28,6 +28,7 @@
     <Compile Include="IDeviceStartBehavior.cs" />
     <Compile Include="ILog.cs" />
     <Compile Include="ILogSink.cs" />
+    <Compile Include="IServer.cs" />
     <Compile Include="ITask.cs" />
     <Compile Include="IDataProvider.cs" />
     <Compile Include="IDevice.cs" />
