@@ -9,5 +9,6 @@ namespace MakoIoT.Device.Services.Interface
         void DeleteFile(string fileName);
         string[] GetFiles();
         string[] GetFileNames();
+        long GetFileSize(string fileName);
     }
 }
